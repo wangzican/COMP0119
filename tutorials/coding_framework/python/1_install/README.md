@@ -91,7 +91,7 @@ reference:
 
 1. Install pyrender via 
    `pip install pyrender==0.1.45` 
-   
+   `conda install conda-forge pyrender`
     **If you’re on MacOS**, 
     you’ll need to pre-install pyrender's fork of pyglet, which enables OpenGL contexts on MacOS.
     ```
@@ -131,6 +131,8 @@ reference:
 ## Install libigl
 1. `mamba install -c conda-forge igl`
 2. `mamba install -c conda-forge meshplot` to visualize with libigl
+## Install meshlab
+`pip install libigl`
 
 * documentation is [here](https://libigl.github.io/libigl-python-bindings/igl_docs/)
 
